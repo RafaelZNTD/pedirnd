@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{font-size: 100%;
+    background: linear-gradient(10.15deg, #e4e4e4 6.62%, #0d1c36 85.61%);
+}
+
+.cabeca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.et{
+    height: 72px;
+}
+
+.textotopo{
+    display: flex;
+    gap: 32px;
+}
+
+.textot{
+    font-family: 'Prompt', sans-serif;
+    color: #d4d4d4;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.meio{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-meio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    height: 100%;
+}
+
+.p-escrito{
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.p-escrito2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.botaum{
+    margin-top: 15px;
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.foto-dog{
+    height: 400px;
+}
+
+.secundaria{
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sec-texto{
+    border-top: 0.4px solid white;
+    padding-top: 15px;
+    font-family: 'Rowdies', cursive;
+    margin-top: 15px;
+}
+
+.sec-texto1{
+    margin-top: 5px;
+    font-family: 'Noto Serif', serif;
+}
+    
+.baianorimg{
+    padding: 10px;
+    height: 72px;
+    display: block;
+    margin: auto;
+}
